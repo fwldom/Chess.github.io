@@ -1,5 +1,8 @@
-# Chess Vibe project
-Developed by Chessable
-It is by Prathmesh Kale
-Released on GitHub under the MIT license
+Chess project by Pratmesh Kale
+Made in the link below
 https://github.com/prathmesh-ka-github/Chessable
+And the Chess Vibe project is his developed
+```
+MIT LICENSE
+Open Soource
+```
