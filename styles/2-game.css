@@ -74,6 +74,7 @@
     list-style: none;
     display: flex;
     margin: 0;
+
 }
 .box {
     cursor: pointer;
@@ -193,11 +194,19 @@ li {
         width: 45px;
         height: 45px;
     }
+    #logo-sm {
+        z-index: 0;
+        display: none;
+    }
 }
 @media only screen and (orientation:portrait) and (max-width:375px){
     li {
         width: 40px;
         height: 40px;
+    }
+    #logo-sm {
+        z-index: 0;
+        display: none;
     }
 }
 @media only screen and (max-width:600px){
@@ -220,4 +229,9 @@ li {
         display: flex;
         padding-bottom: 20px;
     }
+    #logo-sm {
+        z-index: 0;
+        display: none;
+    }
+
 }

@@ -12,6 +12,12 @@
     font-size: 35px;
     text-align: center;
 }
+#img-chess-white {
+    width: 7%;
+}
+#img-chess-black {
+    width: 7%;
+}
 .name{
     all:unset;
     margin-top: 25px;
@@ -129,5 +135,16 @@
     }
     #b_10min{
         margin-left: 0;
+    }
+    #logo-sm {
+        top: 0;
+        left: 1%;
+        position: absolute;
+    }
+    #img-logo {
+        position: absolute;
+        top: 10%;
+        left: -20%;
+        rotate: 90deg;
     }
 }

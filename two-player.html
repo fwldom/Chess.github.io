@@ -5,7 +5,7 @@
     <link rel="icon" href="./Assets/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chessable - 2 Player</title>
+    <title>Chess Vibe - 2 Player</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles/two-player.css">
 </head>
@@ -15,14 +15,20 @@
 
     <a href="index.html">
         <div class="logo-sm">
-            <img src="Assets/Chessable-logo-dark.png" alt="Chessable logo">
+            <img id="img-logo" src="Assets/Chessable-logo-dark.png" alt="Chessable logo">
         </div>
     </a>
     <div class="container">
         <img src="Assets/2kings.png" alt="Two-players">
         <div class="two-p-txt">2-Player Chess</div>
+        <div id="Chess-black">
+        <img src="Assets/chess-black.png" id="img-chess-black" alt="Black">
         <input id="black-player" class="name" type="text" placeholder="Enter player name">
+        </div>
+        <div id="Chess-white">
+        <img src="Assets/chess-white.png" id="img-chess-white" alt="White">
         <input id="white-player" class="name" type="text" placeholder="Enter player name">
+        </div>
         <div class="sub-container">
             <div class="clk-div">
                 <button onclick="fivemin()" id="b_5min" class="clk-btn">5 mins</button>
