@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #272422;
+    font-family: "Arial", "Helvetica", sans-serif;
+    color: #ffffff;
+}
+.main {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.container{
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+    background-color: #3E3A37;
+    padding: 100px;
+    padding-top: 60px;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 200px;
+
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title img{
+    width: 150px;
+    height: 150px;
+}
+
+.about{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 200px;
+}
+
+.Hist{
+    text-align:unset;
+    font-size: 25px;
+    font-weight: 200px;
+}
+u{
+    color: #5e5ef7;
+}
+u a{
+    color: #5e5ef7;
+}
+.sub-container {
+   display:flex;
+  }
+.sub-container div{
+    border: 1px;
+    
+}
+/* .sub-container-2{
+    display: flex;
+} */
+
+.History_2{
+    flex:3;
+    font-size: 25px;
+}
+
+.chaturang{
+    float: left; 
+    height: 350px;
+    width: 500px; 
+    border-radius: 30px;  
+    margin-right: 20px;
+}
+.pieces {
+    margin: 0;
+    width: 80%;
+}
+.piece-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  
+.info-img {
+    float:right;
+    margin: 25px 10px 0px 25px;
+    border-radius: 30px;
+}
+  
+h2{
+    font-size: 35px;
+    font-weight:bold;
+}
+
+
+.chess-3{
+    width: 100%;
+}
+
+li {
+    padding: 10px;
+}
+.FAQ-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.FAQ-container h2{
+    margin-bottom: 0px;
+}
+.accordion-option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion-container{
+    background-color: #2C2A2A;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 25px;
+}
+.acc-btn{
+    all:unset;
+    width:50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    transition: all 300ms;
+}
+.acc-btn svg{
+    height: 25px;
+    width: 25px;
+}
+.acc-btn:hover{
+    background-color: #3d3c3c;
+}
+.acc-btn:active{
+    background-color: #3d3c3c;
+}
+
+.accordion-container .panel{
+    max-height: 0;
+    font-size: 25px;
+    overflow: hidden;
+    transition: 0.9s ease-in-out;
+}
+.accordion-container.active .panel{
+    max-height: 600px;
+}
+/* .active .content {
+  } */
+/* SCROLL BAR */
+/* width */
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #4e4e4e; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3E3A37; 
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #332f2d; 
+}
+
+@media only screen and (max-width: 600px) { 
+    .logo-sm img{
+        position: absolute;
+    }
+    .container{
+        padding: 25px;
+        width: 80%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .info-img{
+        height: 150px;
+        width: 200px;
+        margin: 0px 0px 5px 10px;
+        border-radius: 10px;
+    }
+    .chaturang{
+        height: 180px;
+        width: 220px;
+        margin: 0px 10px 5px 0px;
+        border-radius: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .title img{
+        height: 80px;
+        width: 80px;
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        padding-left: 10px;
+    }
+    li{
+        padding-right: 0;
+        font-size: 15px;
+    }
+    .FAQ-container{
+        font-size: 15px;
+    }
+    .acc-btn{
+        height: 35px;
+        width: 35px;
+        margin-left: 8px;
+    }
+    .acc-btn svg{
+        height: 14px;
+        width: 14px;
+    }
+}

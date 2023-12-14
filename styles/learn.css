@@ -1,0 +1,234 @@
+.main{
+    width:100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.title-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title-img img{
+    width: 150px;
+    height: 150px;
+}
+.container{
+    width:70%;
+    height: 100%;
+    background-color:#3E3A37 ;
+    border-radius: 10px;
+    padding: 100px;
+    font-size: 25px;
+    letter-spacing: 1xpx;
+}
+ 
+
+.no-style{
+    list-style: none;
+}
+.about-board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-board p{
+    margin: 0;
+    padding: 20px;
+}
+.chess-board-img{
+    height: 350px;
+    width: 350px;
+}
+.pieces-list{
+    padding-bottom: 20px;
+}
+.learn-pawn h2{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.learn-img{
+    position: relative;
+    top:20px;
+    height: 90px;
+    margin-top: 20px;
+    width: auto;
+}
+.pawn-move-gif{
+    width:250px;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+}
+
+.knight-move-gif{
+    width:250px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.learn-bishop h2{
+    margin: 0;
+    padding-top: 35px;
+}
+
+.bishop-move-gif{
+    width:250px;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+}
+
+.learn-rook .rook-img{
+    position: relative;
+    top:20px;
+    height: 90px;
+    width: auto;
+    margin-top: 20px;
+}
+.rook-move-gif{
+    width:250px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.learn-queen h2{
+    margin: 0px;
+    margin-top: 150px;
+
+}
+
+
+.queen-move-gif{
+    width:250px;
+    height: auto;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.learn-queen h2{
+    margin: 0px;
+    margin-top: 150px;
+
+}
+
+.king-moves{
+    width:250px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.special-rules h2{
+    text-align: center;
+    padding-top: 90px;
+}
+.openings h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 90px;
+}
+.middle-game{
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #4e4e4e; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3E3A37; 
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #332f2d; 
+}
+
+@media only screen and (max-width:600px){
+    .logo-sm img{
+        position: absolute;
+    }
+    .container{
+        padding:25px;
+        font-size: 17px;
+        width: 75%;
+    }
+    .container h1{
+     font-size: 25px;   
+    }
+    .about-board p{
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .title-img img{
+        width:80px;
+        height: auto;
+    }
+    .chess-board-img{
+        width: 200px;
+        height: auto;
+    }
+    ol{
+        padding-left:25px ;
+    }
+    ul{
+        padding-left: 25px;
+    }
+    li{
+        padding-bottom: 5px;
+    }
+    .learn-img{
+        height: auto;
+        width: 50px;
+        margin-top: 0;
+    }
+    .learn-pawn h2{
+        margin-bottom: 30px;
+    }
+    .pawn-move-gif{
+        float: unset;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    .knight-move-gif{
+        float: unset;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .bishop-move-gif{
+        float: unset;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .rook-move-gif{
+        float: unset;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .queen-move-gif{
+        float: unset;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .king-moves{
+        float: unset;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    
+
+}

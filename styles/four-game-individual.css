@@ -1,0 +1,156 @@
+.main-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.game-mode {
+    position: fixed;
+    right: 0;
+    padding: 20px;
+    font-size: 25px;
+}
+li {
+    list-style: none;
+    border: 1px solid #C3CDDC;
+    width: 3.6vw;
+    height: 3.6vw;
+    /* width: 70px;
+    height: 70px; */
+    font-size: 0px;
+    transition: background-color 500ms;
+
+}
+li img{
+    width: 100%;
+}
+.dead-box{
+    border: 1px solid transparent;
+}
+.board {
+    position: relative;
+}
+.stats {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container div{
+    display: flex;
+    flex-direction: row;
+}
+.red{
+    bottom: 3vw;
+    right: 3vw;
+}
+.yellow{
+    top: 2vw;
+    left: 3vw;
+}
+.green{
+    top: 2vw;
+    right: 1vw;
+}
+.blue{
+    bottom: 3vw;
+    left: 3vw;
+}
+.profile{
+    padding: 10px 0px;
+}
+.time{
+    text-align: center;
+    padding: 10px;
+    width: 120px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+} 
+#R-time{
+    background-color: #B54040;
+    color: white;
+    /* box-shadow: 0px 0px 39px -1px #b54040; */
+}
+#Y-time{
+    background-color: #CA9A28;
+    color: white;
+    /* box-shadow: 0px 0px 39px -1px #ca9a28; */
+}
+#B-time{
+    background-color: #4085B6;
+    color: white;
+    /* box-shadow: 0px 0px 39px -1px #4085B6; */
+
+}
+#G-time{
+    background-color: #538E60;
+    color: white;
+    /* box-shadow: 0px 0px 39px -1px #538e60; */
+}
+.winner-screen-container {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family:Geneva, Verdana, sans-serif;
+    scale: 0;
+    transition: scale 300ms;
+}
+.winner-screen {
+    padding: 80px;
+    background-color: #454241;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+    position: relative;
+}
+.winner-name {
+    display: flex;
+    padding: 20px;
+    color: #bf3535;
+    font-weight: 700;
+    font-size: 60px;
+}
+.rematch {
+    margin-top: 30px;
+}
+.rematch a{
+    margin-left: 20px;
+}
+.rematch button{
+    all: unset;
+    background-color: #64863a;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 300ms;
+    box-shadow: 0px 0px 31px -7px rgb(0 0 0 / 75%);
+    width: 100px;
+    height: 20px;
+}
+.rematch button:hover {
+    background-color: rgb(82, 109, 50);   
+}
+.lastplayer {
+    display: flex;
+    justify-content: center;
+}
+.X{
+    position: absolute;
+    right: 30;
+    top: 30;
+    font-size: 30px;
+    cursor: pointer;
+}
